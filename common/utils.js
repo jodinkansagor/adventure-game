@@ -31,3 +31,14 @@ export function loadProfile() {
     coolPoints.textContent = skater.cp;
 }
 
+export function isDone(skater) {
+    return skater.hp <= 0;
+}
+
+export function loadFinishedAdventure() {
+
+}
+
+export function loadAdventureLink() {
+    
+}

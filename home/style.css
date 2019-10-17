@@ -26,18 +26,20 @@ main p {
     flex-direction: column;
 }
 
-
-
-
 fieldset {
     width: 50%;
 }
 
 #positions img {
     width: 100px;
+    
 }
-
 
 footer a {
     color: yellow;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
 }

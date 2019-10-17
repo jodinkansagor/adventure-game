@@ -4,12 +4,12 @@ const practice = {
     id: 'practice',
     title: 'Your first practice!',
     map: {
-        top: XXX%,
-        left: XXX%
+        top: '20%',
+        left: '65%'
     },
-    image: "",
-    audio: "",
-    description: "You show up to the first day of practice on a new time. You dont know any of the strategies. What do you do?",
+    image: '',
+    audio: '',
+    description: 'You show up to the first day of practice on a new time. You dont know any of the strategies. What do you do?',
     choices: [{
         id: 'pretend',
         description: 'Pretend like you know what\'s going on and play along',
@@ -35,11 +35,11 @@ const party = {
     id: 'party',
     title: 'After-party time!',
     map: {
-        top: XXX%,
-        left: XXX%
+        top: '55%',
+        left: '50%'
     },
-    image: "",
-    audio: "",
+    image: '',
+    audio: '',
     description: 'It\'s time for a bout after-party. Your roller derby idol is there. What do you do?',
     choices: [{
         id: 'interrupt',
@@ -66,11 +66,11 @@ const bout = {
     id: 'bout',
     title: 'It\'s BOUT DAY!',
     map: {
-        top: XXX%,
-        left: XXX%
+        top: '98%',
+        left: '72%'
     },
-    image: "",
-    audio: "",
+    image: '',
+    audio: '',
     description: 'Bout day is upon us. What do you eat to get yourself ready for the big event?',
     choices: [{
         id: 'burger',

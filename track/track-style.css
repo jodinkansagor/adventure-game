@@ -10,6 +10,14 @@ header {
     align-content: center;
 }
 
+.adventures {
+    z-index: -1;
+    background-image: url('../assets/rcr-track2.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 header img {
     width: 75%;
 }
@@ -20,5 +28,13 @@ header img {
     display: flex;
     flex-direction: column;
     font-family: 'Coiny', cursive;
+}
 
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: yellow;
 }
