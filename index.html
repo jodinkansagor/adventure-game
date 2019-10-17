@@ -5,13 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./home/style.css">
+    <title>FLAT TRACK MADNESS!</title>
 </head>
 
 <body>
+    <header>
+        <img src = "./assets/flat-track-madness.png">
+    </header>
 
-    <script src="app.js"></script>
+    <main>
+        <p>Welcome to the life of a roller derby skater! You are going to have some decisions to make a long the way. Let's see how far you get in your roller derby career! First off, lets find out who you are!</p>
+        <form id="skater-signup">
+            <p class="name-prompt">
+                <label for="name">What is your derby name?</label>
+                <input id="name" name="name" required>
+            </p>
+            <fieldset>
+                <legend>What position do you play?</legend>
+                <p id="positions">
+                    <label id=blocker-input>
+                        <input type="radio" name="position" required value="blocker">
+                        <img src="./assets/blocker-helmet2.png">
+                        Blocker
+                    </label>
+                    <label>
+                            <input type="radio" name="position" required value="jammer">
+                            <img src="./assets/jammer-helmet.png">
+                            Jammer
+                        </label>
+                    <label>
+                            <input type="radio" name="position" required value="pivot">
+                            <img src="./assets/pivot-helmet.png">
+                            Pivot
+                        </label>
+                </p>
+            </fieldset>
+            <button>Let's get on the track!</button>
+        </form>
+    </main>
+
+    <footer>
+        <cite>
+            Photos by <a href="https://regularman.smugmug.com/" target="_blank">Regularman Photography</a></cite>
+        </cite>
+    </footer>
+
+    <script type = "module" src="home/home.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header img {
+    width: 75%;
+}
+
+main p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#positions {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+fieldset {
+    width: 50%;
+}
+
+#positions img {
+    width: 100px;
+}
+
+
+footer a {
+    color: yellow;
+}
