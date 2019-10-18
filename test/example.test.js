@@ -1,4 +1,4 @@
-import { findbyId } from '../common/utils.js';
+import { findbyId, hasFinishedTasks } from '../common/utils.js';
 import adventures from '../data/adventures-data.js';
 
 // IMPORT MODULES under test here:
@@ -46,4 +46,19 @@ test('test to see if we can return an object from an id', function(assert) {
     //Assert
     // Make assertions about what is expected valid result
     assert.deepEqual(partyObjectFromId, party);
+});
+
+const test = QUnit.test;
+
+test('does if return true or false depending on if the user has completed tasks', function(assert) {
+    //Arrange
+    // Set up your parameters and expectations
+    const false = false;
+    
+    //Act 
+    // Call the funct ion you're testing and set the result to a const
+    const hasFinished = hasFinishedTasks(adventures, skater);
+    //Assert
+    // Make assertions about what is expected valid result
+    assert.deepEqual(false, false);
 });

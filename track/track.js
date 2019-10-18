@@ -1,13 +1,14 @@
-import { loadProfile, isDone, getSkater, loadFinishedAdventure, loadAdventureLink } from '../common/utils.js';
+import { loadProfile, getSkater, loadFinishedAdventure, loadAdventureLink, hasFinishedTasks } from '../common/utils.js';
 import adventures from '../data/adventures-data.js';
 
 loadProfile();
 
 const skater = getSkater();
 
-if (isDone(skater)) {
+if (hasFinishedTasks(adventures, skater)) {
     window.location = '../results';
 }
+
 
 const navigateAdventures = document.getElementById('adventures');
 
@@ -21,4 +22,3 @@ for (let i = 0; i < adventures.length; i++) {
     }
     navigateAdventures.appendChild(adventureDisplay);
 }
-

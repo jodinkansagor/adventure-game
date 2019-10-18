@@ -1,4 +1,4 @@
-// import adventures from "../data/adventures-data";
+import adventures from '../data/adventures-data.js';
 
 export function saveSkater(skater) {
     const json = JSON.stringify(skater);
@@ -33,8 +33,14 @@ export function loadProfile() {
     coolPoints.textContent = skater.cp;
 }
 
-export function isDone(skater) {
-    return skater.bp >= 100;
+export function hasFinishedTasks(adventures, skater) {
+    for (let i = 0; i < adventures.length; i++) {
+        const adventure = adventures[i];
+        if (!skater.completed[adventure.id]) {
+            return false;
+        }
+    }
+    return true;
 }
 
 export function loadFinishedAdventure(adventure) {
@@ -103,7 +109,7 @@ export function scoreBruisePoints(bp) {
     else if ( bp < 50) {
         return 'healthy';
     }
-    return 'messed up';
+    return 'messedup';
 }
 
 export function scoreCoolPoints(cp) {
