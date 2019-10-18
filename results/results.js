@@ -1,4 +1,4 @@
-import { loadProfile, getSkater, scoreBruisePoints, scoreAdventure, scoreCoolPoints } from '../common/utils.js';
+import { loadProfile, getSkater, scoreBruisePoints, scoreCoolPoints } from '../common/utils.js';
 
 import { bpMessages, cpMessages } from './messages.js';
 

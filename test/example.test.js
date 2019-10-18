@@ -1,6 +1,5 @@
 import { findbyId } from '../common/utils.js';
 import adventures from '../data/adventures-data.js';
-import makeSkater from '../home/make-skater.js';
 
 
 const test = QUnit.test;

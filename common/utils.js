@@ -1,4 +1,3 @@
-import adventures from '../data/adventures-data.js';
 
 export function saveSkater(skater) {
     const json = JSON.stringify(skater);
@@ -106,7 +105,7 @@ export function scoreBruisePoints(bp) {
     if (bp === 0) {
         return 'ok';
     }
-    else if ( bp < 50) {
+    else if (bp < 50) {
         return 'healthy';
     }
     return 'messedup';
