@@ -9,7 +9,7 @@ const practice = {
     },
     image: 'practice.jpg',
     audio: '',
-    description: 'You show up to the first day of practice on a new time. You dont know any of the strategies. What do you do?',
+    description: 'You show up to the first day of practice with a new team. You dont know any of the strategies. What do you do?',
     choices: [{
         id: 'pretend',
         description: 'Pretend like you know what\'s going on and play along',
@@ -19,13 +19,13 @@ const practice = {
     }, {
         id: 'stop',
         description: 'Stop practice multiple times and make your coaches go over the strategy.',
-        result: 'Less talking and more reps! You didn\'t get hurt, but also didn\'t win much favor with your teammates.',
+        result: 'Less talking and more reps! You didn\'t get hurt, but stopping practice so many times didn\'t win you much favor with your teammates.',
         bp: 5,
         cp: -10
     }, {
         id: 'ask',
         description: 'Find your closest friend on the bench and quietly see if they can help you out.',
-        result: 'Not a bad idea finding a buddy to help you out. A few bruises along the way, but your team still likes you!',
+        result: 'Not a bad idea finding a buddy to help you out. Since you are still missing some of the higher level strategy, you picked up a couple bruises, but you played along and your teamm is stoked to have you!',
         bp: 10,
         cp: 20
     }]
@@ -44,7 +44,7 @@ const party = {
     choices: [{
         id: 'interrupt',
         description: 'Interrupt their conversation and tell them how amazing you think they are.',
-        result: 'I guess you got your point across! Awkward, but straightforward',
+        result: 'I guess you got your point across! It\'s super awkward, but maybe less weird because you got it out of the way. Next time, try and act',
         bp: 20,
         cp: 10
     }, {
@@ -76,7 +76,7 @@ const bout = {
         id: 'burger',
         description: 'One small burger from your favorite local fast food establishment. Carbs, fat, protein - in one little package.',
         result: 'Not a bad way to go! Not too much to make you vom, but enough to get you through!',
-        bp: 0,
+        bp: 30,
         cp: 20
     }, {
         id: 'nothing',
@@ -93,24 +93,24 @@ const bout = {
     }]
 };
 
-// const draft = {
-//     id: 'draft',
-//     title: 'Draft Night!',
+// const crush = {
+//     id: 'crush',
+//     title: 'Time for scrimmage!',
 //     map: {
 //         top: '25%',
-//         left: '70%'
+//         left: '50%'
 //     },
 //     image: '',
 //     audio: '',
-//     description: 'Think you are going to make a team? Well, it\'s draft night. Let\'s see who get\'s drafted!',
+//     description: 'It\'s scrimmage is upon us and your ex, your crush, and a current date are all there. What now?',
 //     choices: [{
-//         id: 'new-team',
-//         description: 'Interrupt their conversation and tell them how amazing you think they are.',
-//         result: 'I guess you got your point across! Awkward, but straightforward',
+//         id: 'bathroom',
+//         description: 'Run to the bathroom and hide. Nobody will know you are there if they can\'t find you.',
+//         result: 'You missed all of scrimmage and next week\'s bout is going to be rough.',
 //         bp: 20,
-//         cp: 10
+//         cp: 5
 //     }, {
-//         id: 'creep',
+//         id: 'stick',
 //         description: 'Get creepy about it and "happen" to be in every conversation they are in.',
 //         result: 'Dude, you need to let it go.',
 //         bp: -20,

@@ -1,22 +1,28 @@
 body {
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
     background-color: black;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 header img {
-    width: 75%;
+    width: 800px;
 }
 
-main p {
+header p {
     font-size: 20px;
     text-align: center;
+    width: 800px;
+font-family: 'PT Serif', serif;
+
 }
 
 #positions {
@@ -24,10 +30,29 @@ main p {
     color: black;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+font-family: 'PT Serif', serif;
+
+}
+
+
+button {
+    margin: 10px;
+    width: 150px;
+    height: 70px;
+font-family: 'PT Serif', serif;
+    font-size: 20px;
 }
 
 fieldset {
-    width: 50%;
+    width: 300px;
+    text-align: center;
 }
 
 #positions img {
@@ -42,4 +67,6 @@ footer a {
 footer {
     margin-top: 30px;
     text-align: center;
+font-family: 'PT Serif', serif;
+
 }

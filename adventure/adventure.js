@@ -41,6 +41,7 @@ gameForm.addEventListener('submit', function(event) {
     scoreAdventure(choice, adventure.id, skater);
     saveSkater(skater);
 
+    description.classList.add('hidden');
     gameForm.classList.add('hidden');
     results.classList.remove('hidden');
     resultsDescription.classList.remove('hidden');

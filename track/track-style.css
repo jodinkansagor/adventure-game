@@ -1,14 +1,12 @@
-body {
-    background-color: black;
-    color: white;
+
+
+h1 {
+    text-align: center;
 }
 
-header {
-    background-color: black;
-    margin: auto;
-    /* display: flex;
-    flex-direction: row;
-    align-content: center; */
+p {
+    font-family: 'PT Serif', serif;
+
 }
 
 #adventures {
@@ -19,51 +17,26 @@ header {
     margin: auto;
     background-size: contain;
     
+
 }
 
 .adventure {
     position: absolute;
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2.5px 2.5px 2.5px #cb6ce6;
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+}
+
+.adventure:before {
+    content: '🌟'
 }
 
 .adventure.completed {
-    color: lightslategray;
+    color: #cb6ce6;
 }
 
-quest.completed:after {
-    content:'💔';
-}
-
-main a {
-    font-size: 50px;
-    font-family: 'Coiny', cursive;
-    color: white;
-}
-
-header img {
-    height: 300px;
-}
-
-.profile {
-    margin-top: 20px;
-    font-size: 20px;;
-    /* display: flex;
-    flex-direction: column; */
-    font-family: 'Coiny', cursive;
-}
-
-.profile img {
-    height: 75px;
-}
-
-footer {
-    margin-top: 30px;
-    text-align: center;
-}
-
-footer a {
-    color: yellow;
-    font-size: 20px;
+.adventure.completed:after {
+    content:'🥳';
 }
 

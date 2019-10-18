@@ -96,3 +96,21 @@ export function scoreAdventure(choice, adventureId, skater){
     skater.completed[adventureId] = true;
 }
 
+export function scoreBruisePoints(bp) {
+    if (bp === 0) {
+        return 'ok';
+    }
+    else if ( bp < 50) {
+        return 'healthy';
+    }
+    return 'messed up';
+}
+
+export function scoreCoolPoints(cp) {
+    if (cp === 0) {
+        return 'friend';
+    } else if (cp > 50) {
+        return 'awesome';
+    }
+    return 'tool';
+}
