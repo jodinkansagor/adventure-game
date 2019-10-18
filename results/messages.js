@@ -1,7 +1,7 @@
 export const bpMessages = {
-    ok: 'Your body is doing alright! A few bruises really hurt anyone',
-    healthy: 'You came out of this pretty unscathed! Nice work!',
-    messedup: 'Dang. You might want to fill out the WFTDA insurance claim, you are looking rough.'
+    ok: 'your body is doing alright! A few bruises really hurt anyone',
+    healthy: 'you came out of this pretty unscathed! Nice work!',
+    messedup: 'dang. You might want to fill out the WFTDA insurance claim, you are looking rough.'
 };
 
 export const cpMessages = {

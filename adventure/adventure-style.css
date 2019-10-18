@@ -1,7 +1,8 @@
 main a {
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'PT Serif', serif;
     color: white;
+    color: #cb6ce6;
 }
 
 main {
@@ -10,3 +11,32 @@ main {
     align-content: center;
 }
 
+#title {
+    text-align: center;
+    font-size: 50px;
+}
+
+#adventure-image {
+    height: 500px;
+}
+
+#pic-and-question {
+    display: flex;
+    flex-direction: row;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;;
+}
+
+#questions {
+    margin-left: 20px;
+}
+
+button {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}

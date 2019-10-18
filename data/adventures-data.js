@@ -44,7 +44,7 @@ const party = {
     choices: [{
         id: 'interrupt',
         description: 'Interrupt their conversation and tell them how amazing you think they are.',
-        result: 'I guess you got your point across! It\'s super awkward, but maybe less weird because you got it out of the way. Next time, try and act',
+        result: 'I guess you got your point across! It\'s super awkward, but maybe less weird because you got it out of the way. Next time, try and act cool.',
         bp: 20,
         cp: 10
     }, {
@@ -56,7 +56,7 @@ const party = {
     }, {
         id: 'stay-cool',
         description: 'Just hang out with your friends. Maybe they will come over and say hi!',
-        result: 'Nice work holding a boundary! Your derby idols are people too',
+        result: 'Nice work holding a boundary! Your derby idols are people too.',
         bp: -20,
         cp: 30
     }]
