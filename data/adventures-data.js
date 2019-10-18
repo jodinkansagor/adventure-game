@@ -5,7 +5,7 @@ const practice = {
     title: 'Your first practice!',
     map: {
         top: '5%',
-        left: '5%'
+        left: '30%'
     },
     image: 'practice.jpg',
     audio: '',
@@ -36,7 +36,7 @@ const party = {
     title: 'After-party time!',
     map: {
         top: '35%',
-        left: '5%'
+        left: '30%'
     },
     image: 'party.jpg',
     audio: '',
@@ -67,7 +67,7 @@ const bout = {
     title: 'It\'s BOUT DAY!',
     map: {
         top: '65%',
-        left: '5%'
+        left: '30%'
     },
     image: 'bout.jpg',
     audio: '',

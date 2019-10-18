@@ -19,5 +19,7 @@ let story = 'Your first couple weeks on your new team as a new ' + skater.positi
 
 storyDisplay.textContent = story;
 
-storyImg.src = '../assets/wheels-of-justice.jpg'
+storyImg.src = '../assets/wheels-of-justice.jpg';
+
+
 

@@ -7,5 +7,5 @@ export const bpMessages = {
 export const cpMessages = {
     friend: 'You are well on your way to being a crowd favorite on your new team!',
     awesome: 'Congrats on being voted most loved league member at the league bbq!',
-    tool: 'Looks like you are having a rough time adjusting. Maybe time to keep your mouth shit and listen for a minute?'
+    tool: 'Looks like you are having a rough time adjusting socially though. Maybe time to keep your mouth shut and listen for a minute?'
 };

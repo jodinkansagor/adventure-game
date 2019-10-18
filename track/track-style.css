@@ -17,22 +17,24 @@ main {
 
 #adventures {
     position: relative;
-    background-image: url('../assets/rcr-track2.jpg');
-    height: 700px;
+    background-image: url('../assets/rcrtrack.jpg');
+    height: 600px;
     width: 80vw;
     background-repeat: no-repeat;
     margin: 0 auto;
     background-size: cover;
     text-align: center;
+    border-radius: 20%;
 }
 
 .adventure {
     position: absolute;
-    color: white;
-    text-shadow: 2.5px 2.5px 2.5px #cb6ce6;
+    color: yellow;
+    text-shadow: 2.5px 2.5px 2.5px black;
     font-family: 'PT Serif', serif;
-    font-size: 40px;
-    width: 300px
+    font-size: 35px;
+    /* background-color: lightgrey;
+    border-radius: 20%; */
 }
 
 .adventure:before {

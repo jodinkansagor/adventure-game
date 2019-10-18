@@ -1,6 +1,6 @@
-import { findbyId, saveSkater } from '../common/utils.js';
+import { findbyId } from '../common/utils.js';
 import adventures from '../data/adventures-data.js';
-
+import makeSkater from '../home/make-skater.js';
 
 
 const test = QUnit.test;
@@ -33,7 +33,7 @@ test('test to see if we can return an object from an id', function(assert) {
         }, {
             id: 'stay-cool',
             description: 'Just hang out with your friends. Maybe they will come over and say hi!',
-            result: 'Nice work holding a boundary! Your derby idols are people too',
+            result: 'Nice work holding a boundary! Your derby idols are people too.',
             bp: -20,
             cp: 30
         }]
@@ -46,4 +46,3 @@ test('test to see if we can return an object from an id', function(assert) {
     // Make assertions about what is expected valid result
     assert.deepEqual(partyObjectFromId, party);
 });
-
