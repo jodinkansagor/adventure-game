@@ -6,33 +6,7 @@ body {
 header {
     background-color: black;
     margin: auto;
-    /* display: flex;
-    flex-direction: row;
-    align-content: center; */
-}
 
-#adventures {
-    position: relative;
-    background-image: url('../assets/rcr-track2.jpg');
-    height: 700px;
-    background-repeat: no-repeat;
-    margin: auto;
-    background-size: contain;
-    
-}
-
-.adventure {
-    position: absolute;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-}
-
-.adventure.completed {
-    color: lightslategray;
-}
-
-quest.completed:after {
-    content:'💔';
 }
 
 main a {
@@ -65,5 +39,9 @@ footer {
 footer a {
     color: yellow;
     font-size: 20px;
+}
+
+.hidden {
+    display: none;
 }
 

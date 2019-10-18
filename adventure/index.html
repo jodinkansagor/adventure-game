@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./track-style.css">
+    <link rel="stylesheet" href="./adventure-style.css">
     <title>FLAT TRACK MADNESS!</title>
 </head>
 
@@ -26,9 +26,19 @@
     </header>
 
     <main>
-        <h1>Choose your first adventure!</h1>
-        <nav  id="adventures">
-        </nav>
+        <h1 id="title"></h1>
+        <p>
+            <img id="adventure-image">
+        </p>
+        <p id="description"></p>
+        <form id="game-form">
+            <p id="answers"></p>
+            <button>What's Your Pick?</button>
+        </form>
+        <section id="results" class="hidden">
+            <p id="results-description"></p>
+            <a href="../track/">Let's go back to the track.</a>
+        </section>
     </main>
 
     <footer>
@@ -37,7 +47,7 @@
             </cite>
         </footer>
 
-    <script type = "module" src="./track.js"></script>
+    <script type = "module" src="./adventure.js"></script>
 </body>
 
 </html>

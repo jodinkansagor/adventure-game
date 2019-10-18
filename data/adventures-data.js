@@ -4,10 +4,10 @@ const practice = {
     id: 'practice',
     title: 'Your first practice!',
     map: {
-        top: '20%',
-        left: '65%'
+        top: '5%',
+        left: '5%'
     },
-    image: '',
+    image: 'practice.jpg',
     audio: '',
     description: 'You show up to the first day of practice on a new time. You dont know any of the strategies. What do you do?',
     choices: [{
@@ -35,10 +35,10 @@ const party = {
     id: 'party',
     title: 'After-party time!',
     map: {
-        top: '55%',
-        left: '50%'
+        top: '35%',
+        left: '5%'
     },
-    image: '',
+    image: 'party.jpg',
     audio: '',
     description: 'It\'s time for a bout after-party. Your roller derby idol is there. What do you do?',
     choices: [{
@@ -49,7 +49,7 @@ const party = {
         cp: 10
     }, {
         id: 'creep',
-        description: 'Get creepy about it and \"happen\" to be in every conversation they are in.',
+        description: 'Get creepy about it and "happen" to be in every conversation they are in.',
         result: 'Dude, you need to let it go.',
         bp: -20,
         cp: -20
@@ -66,10 +66,10 @@ const bout = {
     id: 'bout',
     title: 'It\'s BOUT DAY!',
     map: {
-        top: '98%',
-        left: '72%'
+        top: '65%',
+        left: '5%'
     },
-    image: '',
+    image: 'bout.jpg',
     audio: '',
     description: 'Bout day is upon us. What do you eat to get yourself ready for the big event?',
     choices: [{
@@ -92,6 +92,37 @@ const bout = {
         cp: 20
     }]
 };
+
+// const draft = {
+//     id: 'draft',
+//     title: 'Draft Night!',
+//     map: {
+//         top: '25%',
+//         left: '70%'
+//     },
+//     image: '',
+//     audio: '',
+//     description: 'Think you are going to make a team? Well, it\'s draft night. Let\'s see who get\'s drafted!',
+//     choices: [{
+//         id: 'new-team',
+//         description: 'Interrupt their conversation and tell them how amazing you think they are.',
+//         result: 'I guess you got your point across! Awkward, but straightforward',
+//         bp: 20,
+//         cp: 10
+//     }, {
+//         id: 'creep',
+//         description: 'Get creepy about it and "happen" to be in every conversation they are in.',
+//         result: 'Dude, you need to let it go.',
+//         bp: -20,
+//         cp: -20
+//     }, {
+//         id: 'stay-cool',
+//         description: 'Just hang out with your friends. Maybe they will come over and say hi!',
+//         result: 'Nice work holding a boundary! Your derby idols are people too',
+//         bp: -20,
+//         cp: 30
+//     }]
+// };
 
 const adventures = [practice, party, bout];
 

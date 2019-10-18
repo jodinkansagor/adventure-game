@@ -12,13 +12,14 @@ if (isDone(skater)) {
 const navigateAdventures = document.getElementById('adventures');
 
 for (let i = 0; i < adventures.length; i++) {
+    
     const adventure = adventures[i];
     let adventureDisplay = null;
     if (skater.completed[adventure.id]) {
-        adventureDisplay = loadFinishedAdventure();
+        adventureDisplay = loadFinishedAdventure(adventure);
     } else {
-        adventureDisplay = loadAdventureLink();
+        adventureDisplay = loadAdventureLink(adventure);
     }
-    nav.appendChild(navigateAdventures);
+    navigateAdventures.appendChild(adventureDisplay);
 }
 
