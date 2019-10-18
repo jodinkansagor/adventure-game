@@ -12,7 +12,7 @@ test('test to see if we can return an object from an id', function(assert) {
         title: 'After-party time!',
         map: {
             top: '35%',
-            left: '5%'
+            left: '30%'
         },
         image: 'party.jpg',
         audio: '',
