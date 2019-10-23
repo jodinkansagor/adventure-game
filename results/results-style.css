@@ -1,0 +1,26 @@
+main {
+    font-family: 'PT Serif', serif;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    background-color: white;
+    font-family: 'PT Serif', serif;
+    border-radius: 15%;
+    text-decoration: none;
+    color: #cb6ce6;
+    font-size: 30px;;
+    padding: 7px;
+}
